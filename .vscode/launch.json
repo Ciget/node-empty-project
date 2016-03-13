@@ -9,17 +9,16 @@
 			"stopOnEntry": false,
 			"args": [],
 			"cwd": "${workspaceRoot}",
-			"preLaunchTask": "build-ts",
-			"runtimeExecutable": null,
+			 "preLaunchTask": "build-ts",
+			 "runtimeExecutable": null,
 			"runtimeArgs": [
 				"--nolazy"
 			],
-			"env": {
-				"NODE_ENV": "development"
-			},
+			// "env": {
+			// 	"NODE_ENV": "development"
+			// },
 			"externalConsole": false,
-			"sourceMaps": false,
-			"outDir": null
+			"sourceMaps": true
 		},
 		{
 			"name": "Attach",
@@ -28,8 +27,6 @@
 			"port": 5858,
 			"address": "localhost",
 			"restart": false,
-			"sourceMaps": false,
-			"outDir": null,
 			"localRoot": "${workspaceRoot}",
 			"remoteRoot": null
 		}

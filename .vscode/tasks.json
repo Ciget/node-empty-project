@@ -13,11 +13,12 @@
             "taskName": "build-ts",
             "isBuildCommand": false,
             "problemMatcher": "$tsc"
-        },
-        {
-            "taskName": "test",
-            "args": [],
-            "isTestCommand": true
         }
+        // ,
+        // {
+        //     "taskName": "test",
+        //     "args": [],
+        //     "isTestCommand": true
+        // }
     ]
 }
